@@ -6,6 +6,6 @@ import com.amsource.waterTemperatureDemo.Modell.WaterSensorData;
 import java.util.List;
 
 public interface WaterSensorDataService {
-    List<WaterSensorData> getLast50Records();
+    List<WaterSensorData> getLastNRecords(int amount);
 
 }

@@ -7,9 +7,11 @@ public class LoraPark_API_Helper {
   private static final String BASE_URI =
       "https://datenhub.ulm.de/api/v1/datasets/lorapark_wassertemperatur/resources/lorapark_wassertemperatur?";
 
-  private String URI;
+  public String getURI() {
+    return URI;
+  }
 
-  private String rando = "offset=0&limit=3&where=1=1 order by timestamp desc";
+  private String URI;
 
   public LoraPark_API_Helper() {
     this.URI = BASE_URI;

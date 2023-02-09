@@ -18,7 +18,7 @@ public class WaterSensorData {
     return "WaterSensorData{"
         + "_id="
         + _id
-        + ", externaltemperature="
+        + ", externalTemperature="
         + externalTemperature
         + ", humidity="
         + humidity
